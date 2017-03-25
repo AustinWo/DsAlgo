@@ -2,6 +2,23 @@
 
 We are given a 2D array where elements in any individual row or column are sorted. In such a matrix, we have to search (find the position of) a given key. Following example further elaborates the problem.
 
+Brute force: look at every element in each row
+time: O(r * c) where r is the # of row and c is the # of column
+
+Better approach: binary search in each row
+time: O(r * lg c)
+
+Best: 
+start from top right, until out of bound of matrix
+    if current is key, return
+    if current is greater than key, go left
+    if current is less than key, go down
+return null
+
+time: O(r + c)
+space: O(1)
+
+
 */
 
 let matrix = [
@@ -82,11 +99,5 @@ r++
 r = 4
 c = 2
 cur = 15 **** found
-
-start from top right, until out of bound of matrix
-    if current is key, return
-    if current is greater than key, go left
-    if current is less than key, go down
-return null
 
 */
