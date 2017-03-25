@@ -5,3 +5,5 @@ Data Structures &amp; Algorithms
 
 - Sorted Matrix Search
 - LRU Cache
+- is Binary Search Tree?
+- Tree same level logging traversal
