@@ -8,3 +8,5 @@ Data Structures &amp; Algorithms
 - is Binary Search Tree?
 - Tree same level logging traversal
 - Smallest Common Number
+- Rotate Array
+- Find low & high index
