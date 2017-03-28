@@ -1,7 +1,7 @@
 # DsAlgo
 Data Structures &amp; Algorithms
 
-## CodeRust
+## Code
 
 - Sorted Matrix Search
 - LRU Cache
@@ -10,3 +10,4 @@ Data Structures &amp; Algorithms
 - Smallest Common Number
 - Rotate Array
 - Find low & high index
+- Move zeroes to left in array
