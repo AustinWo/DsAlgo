@@ -11,3 +11,4 @@ Data Structures &amp; Algorithms
 - Rotate Array
 - Find low & high index
 - Move zeroes to left in array
+- Merge sorted overlapping intervals
